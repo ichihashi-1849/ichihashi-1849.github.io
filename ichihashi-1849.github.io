@@ -55,8 +55,8 @@ th, td {
 </table>
 
 <script>
-const sheetID = "ここにID";
-const url = `https://opensheet.elk.sh/${1Hx7trjwnShkQJ5z_N45NGpK_pEHyC27l}/DISPLAY`;
+const sheetID = "1Hx7trjwnShkQJ5z_N45NGpK_pEHyC27l";
+const url = `https://opensheet.elk.sh/${sheetID}/DISPLAY`;
 
 fetch(url)
 .then(res => res.json())
